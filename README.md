@@ -62,7 +62,7 @@ Create view entrycount as select date(time) as day, count(*) from log group by d
 
 ## Run Script
 To run the log_analysis.py code, type the following in the command within the VM:
-
+```
 python log_analysis.py
-
+```
 Thank you.
